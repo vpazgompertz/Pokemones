@@ -1,0 +1,78 @@
+/*Nabvar*/
+
+nav {
+  background: #4d4c4c;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 1rem;
+  padding-right: 3rem;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px; 
+}
+
+.nav-right .active {
+    color: rgb(247, 6, 6);
+  }
+
+.img{
+    width: 350px;
+    padding-top: 20px;
+}
+
+/*view pokemones*/
+
+select{
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #b8b8b8; 
+    cursor: pointer;
+}
+
+button.btn {
+    
+    background-color: #0c0c0c;
+    margin-top: 20px;
+    color:#fff;
+    cursor: pointer;
+  }
+  
+  button.btn:hover{
+    background-color: red;
+  }
+
+/*Detalles pokemon*/
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pokemon-info {
+    display: flex;
+    align-items: center;
+    border: 1px solid #cfcfcf;
+    padding-right: 30px;
+    border-radius: 10px;
+  }
+  
+  .pokemon-image {
+    width: 500px;
+  }
+  
+  .pokemon-type {
+    list-style: none;
+    color: #b8b8b8;
+    font-size: 14px;
+  }
